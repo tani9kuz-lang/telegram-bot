@@ -1,0 +1,3 @@
+databaseChangeLog:
+  - include:
+      file: liquibase/create-notification-task-table.sql
