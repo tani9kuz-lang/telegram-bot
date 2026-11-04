@@ -30,7 +30,6 @@ public class NotificationTaskScheduler {
     public void runNotificationChecks() {
 
         LocalDateTime currentMinute = LocalDateTime.now().truncatedTo(ChronoUnit.MINUTES);
-
         logger.info("Поиск напоминаний на время: {}", currentMinute);
 
         List<NotificationTask> tasks = notificationTaskRepository.findAllBySendDateTime(currentMinute);

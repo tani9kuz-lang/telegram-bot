@@ -19,5 +19,4 @@ public class TelegramBotConfiguration {
         return bot;
     }
 
-
 }

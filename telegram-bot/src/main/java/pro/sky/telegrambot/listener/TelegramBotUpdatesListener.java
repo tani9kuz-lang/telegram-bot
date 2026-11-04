@@ -54,6 +54,7 @@ public class TelegramBotUpdatesListener implements UpdatesListener {
                 }
 
                 Matcher matcher = pattern.matcher(messageText);
+
                 if (matcher.matches()) {
                     String dateTimeStr = matcher.group(1);
                     String taskText = matcher.group(3);
