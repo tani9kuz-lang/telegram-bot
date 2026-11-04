@@ -10,3 +10,4 @@ public class TelegramBotApplication {
 		org.springframework.boot.SpringApplication.run(TelegramBotApplication.class, args);
 	}
 }
+

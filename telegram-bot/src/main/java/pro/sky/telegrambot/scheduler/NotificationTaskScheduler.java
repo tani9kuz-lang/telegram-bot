@@ -48,6 +48,7 @@ public class NotificationTaskScheduler {
                     logger.error("Не удалось отправить уведомление ID {}. Код ошибки: {}", task.getId(), response.errorCode());
                 }
             });
+
         }
     }
 }
