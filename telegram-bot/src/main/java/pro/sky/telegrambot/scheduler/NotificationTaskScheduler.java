@@ -28,6 +28,7 @@ public class NotificationTaskScheduler {
 
     @Scheduled(cron = "0 0/1 * * * *")
     public void runNotificationChecks() {
+
         LocalDateTime currentMinute = LocalDateTime.now().truncatedTo(ChronoUnit.MINUTES);
 
         logger.info("Поиск напоминаний на время: {}", currentMinute);

@@ -7,3 +7,4 @@ CREATE TABLE notification_task(
     text           TEXT      NOT NULL,
     send_date_time TIMESTAMP NOT NULL
 );
+

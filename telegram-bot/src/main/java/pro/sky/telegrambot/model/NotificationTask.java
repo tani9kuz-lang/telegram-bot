@@ -21,7 +21,6 @@ public class NotificationTask {
     @Column(name = "send_date_time", nullable = false)
     private LocalDateTime sendDateTime;
 
-
     public NotificationTask() {
     }
 
